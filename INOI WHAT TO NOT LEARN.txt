@@ -1,0 +1,20 @@
+Related
+C++ is huge. But I am learning C++ aiming for IOI. Which parts of C++ do I need to master for IOI?
+You will need only a very small subset of C++ to do well at IOI (or competitive programming in general).
+
+First, learn the most basic things that a school-level course would cover (For a quick reference, check the intro tutorial on cplusplus.com.[1] You don’t even need everything there, such as classes or exceptions). The relevant things are:
+
+Basic program structure: Headers, main function, “grammar” like braces and semicolon.
+Variables and constants: Data types and their limits, naming conventions (avoid keywords), scope, declaration
+Operators: No need to mug precedence tables, brackets are your friend.
+Input/Output: cin/cout is enough if you know what you are doing. Some go for printf/scanf for speed but it is rarely required and often counterproductive. getline and stringstream are helpful for tokenisation sometimes.
+Control structures: if, for, while. From more recent C++, learn to loop smartly with auto and range-based loops.
+Arrays: You don’t even need to know dynamic allocation 99% of the time. Just being able to make a fixed-size (based on constraints) array of relevant data structures is enough
+Functions: Declaring functions, passing by value and reference, recursion and forward declaration, default arguments
+Structures: Defining simple structures as collections of variables. Overloading some operators (usually operator<). You should not need member functions or have to implement OOP functionality most of the time.
+Pointers: You should not need it most of the time, but good to know, especially as a primer for iterators later.
+C library functions: Many are superseded by their STL versions, but learn the rest
+And what you might not learn in a typical C++ course, but is super important for competitive programming:
+
+STL: Learn the containers[2] and algorithms.[3] Use of an STL data structure or algorithm can be the difference between code that you can write up in 5 minutes and one you cannot possibly do within contest duration.]
+I randomly fished out code I wrote recently for a LeetCode problem.[4] Remember, this is not great code or even good code. But it is kind of what people write during a contest, and I think it is a good example of many of the C++ features you would use to solve IOI problems. You don’t have to understand the underlying algorithm, but I think it is important that you are familiar with all the C++ components used here.

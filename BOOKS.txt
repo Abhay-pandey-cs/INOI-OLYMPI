@@ -1,0 +1,8 @@
+dsa books
+1>>.>> The Algorithm Design EVA TARDOS                                                                                  APRIL
+                                                                                                         
+>>.>>Competitive Programming 3 by Steven Halim                                               APRIL         
+>>.>>Algorithmic Thinking: A Problem-Based Introduction, by Daniel Zingaro                                              MAY
+>>.>>CLRS Book                                                                                         JUNE
+ 
+GUIDENCE-Guide to Competitive Programming by Antti Laaksonen
